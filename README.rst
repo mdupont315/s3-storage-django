@@ -296,33 +296,3 @@ Migration from django-storages
 If your are updating a project that used `django-storages <https://pypi.python.org/pypi/django-storages>`_ just for S3 file storage, migration is trivial.
 
 Follow the installation instructions, replacing 'storages' in ``INSTALLED_APPS``. Be sure to scrutinize the rest of your settings file for changes, most notably ``AWS_S3_BUCKET_NAME`` for ``AWS_STORAGE_BUCKET_NAME``.
-
-
-Build status
-------------
-
-This project is built on every push using the Travis-CI service.
-
-.. image:: https://travis-ci.org/etianen/django-s3-storage.svg?branch=master
-    :target: https://travis-ci.org/etianen/django-s3-storage
-
-
-Support and announcements
--------------------------
-
-Downloads and bug tracking can be found at the `main project
-website <http://github.com/etianen/django-s3-storage>`_.
-
-
-More information
-----------------
-
-The django-s3-storage project was developed by Dave Hall. You can get the code
-from the `django-s3-storage project site <http://github.com/etianen/django-s3-storage>`_.
-
-Dave Hall is a freelance web developer, based in Cambridge, UK. You can usually
-find him on the Internet in a number of different places:
-
--  `Website <http://www.etianen.com/>`_
--  `Twitter <http://twitter.com/etianen>`_
--  `Google Profile <http://www.google.com/profiles/david.etianen>`_
